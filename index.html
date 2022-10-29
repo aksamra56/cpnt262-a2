@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        AK Contact Form
+        </title>
+        <link rel="stylesheet" href="style.css">
+    <body style="text-align: center;">
+        <h1 style="color: rgb(0, 38, 128);">
+        AK CONTACT FORM
+        </h1>
+  Choose between EITHER one of the two boxes below
+    <fieldset>
+      <legend>How important is the inquiry?</legend>
+           <script language="javascript">
+              function changeclr(obj) {
+                 document.body.style.backgroundColor = obj.value;
+              }
+           </script>
+              <input type="radio" name="color" value="red" onclick="changeclr(this)"> Urgent (red)<br>
+              <input type="radio" name="color" value="yellow" onclick="changeclr(this)"> Neutral (yellow)<br>
+              <input type="radio" name="color" value="green" onclick="changeclr(this)"> Low Priority (green)<br>
+      <label>Send to AK<input type="checkbox" /><input<br> 
+    </fieldset>
+    <script src="index.js" defer></script>
+</legend>OR</legend>
+    <fieldset>
+        <legend>How important is the inquiry?</legend>
+        <div>
+          <label for="inquiry?">I choose...</label>
+          <select id="backgroundImage">
+          <option value="">Make a selection</option>
+          <option value="mad">mad</option>
+          <option value="confused">confused</option>
+          <option value="sad">sad</option>
+          <option value="happy">happy</option>
+        </select>
+      </div>
+      <label>Send to AK<input type="checkbox" /><input<br> 
+    </fieldset>
+        <p>
+              CLICK ON THE BUTTON BELOW TO FINISH FILLING FORM
+        </p>
+        <button onClick="AK_Contact()">
+            click here
+        </button>
+        <p id="AK_Reach"></p>
+        <script>
+            var down = document.getElementById("AK_REACH");
+            function AK_Contact() {
+
+            }
+            

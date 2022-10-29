@@ -1,0 +1,100 @@
+body{
+    /* All body elements between the two boxes styling */
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 2rem;
+  }
+  
+  fieldset{
+    /* ALL fieldset styling & placement */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 40ch;
+    
+    /* fieldset styling cont */
+    background: rgb(70, 54, 142);
+    background: radial-gradient(circle, rgb(168, 144, 205) 0%, rgb(134, 119, 178) 100%);
+    border: 3px solid black;
+  
+    /* font styling */
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: none;
+    font-size: 20px;
+  }
+  
+  legend {
+    /* font styling */
+    font-variant: small-caps;
+    float: left;
+    font-size: 40px;
+    padding: 1rem;
+  }
+  
+  
+  h1{
+    /* text positioning */
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: 50px;
+  }
+    
+  
+  input {
+    /* custom radio button positioning */
+    appearance: none;
+    position: relative;
+    border-radius: 30%;
+    width: 15px;
+    height: 15px;
+    top: 2px;
+    margin-right: 5px;
+  
+    /* custom radio button styling */
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.3s all linear;
+  }
+  
+  input:checked {
+    /* custom radio button styling */
+    border: 6px solid black;
+  }
+  
+  p{
+    /* text positioning */
+    text-indent: 10px;
+    max-width: 60%;
+    margin: auto;
+  }
+
+  button{
+    /* placement for buttons */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  
+    /* button styling */
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(250, 237, 221);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
+  
+  button:hover{
+    /* button hover styling */
+    background-color: rgb(255, 234, 0);
+    box-shadow: 3px 2px 2px rgba(205, 232, 24, 0.229);
+  }
+  
+  button:active {
+    /* button active styling */
+    background-color: rgb(255, 234, 0);
+    color: black;
+    outline: 1px solid black;
+  }
+  
