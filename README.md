@@ -4,7 +4,7 @@
 
 Author: Akashdeep Samra
 
-Link to GH page site: https://aksamra56.github.io/cpnt262-a2/
+Link to GH page site: [Page Site] (https://aksamra56.github.io/cpnt262-a2/) 
 
 
 # Above and Beyond:
